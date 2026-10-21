@@ -1,0 +1,10 @@
+{
+  "name": "cannonball",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cannonball — Fury of the Wasteland. A mobile-first wasteland cannon game.",
+  "scripts": {
+    "start": "npx http-server -c-1 -p 8080 ."
+  }
+}

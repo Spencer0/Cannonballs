@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f6f80"/><stop offset="0.6" stop-color="#d98f4e"/><stop offset="1" stop-color="#f7d08a"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="0.38" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#a0a6ac"/><stop offset="1" stop-color="#1e2023"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#sky)"/>
+  <rect y="390" width="512" height="122" fill="#7d5233"/>
+  <rect y="380" width="512" height="14" fill="#c98a4b"/>
+  <g fill="#e0371f">
+    <path d="M190 170 L170 70 L222 150Z"/><path d="M225 150 L230 48 L262 145Z"/>
+    <path d="M265 145 L300 52 L300 152Z"/><path d="M300 155 L362 82 L330 172Z"/>
+  </g>
+  <circle cx="256" cy="275" r="130" fill="url(#ball)" stroke="#1a0a02" stroke-width="10"/>
+  <rect x="236" y="210" width="110" height="40" rx="18" fill="#e8b04a" stroke="#1a0a02" stroke-width="9"/>
+  <path d="M150 330 L360 240" stroke="#6a3a1a" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="210" cy="245" r="10" fill="#fff" opacity="0.35"/>
+</svg>
